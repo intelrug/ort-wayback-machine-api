@@ -1,0 +1,25 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "database": "ortherd",
+  "timezone": "+00:00",
+  "synchronize": false,
+  "logging": false,
+  "entities": [
+    "build/entities/**/*.js"
+  ],
+  "migrations": [
+    "build/migrations/**/*.js"
+  ],
+  "subscribers": [
+    "build/subscribers/**/*.js"
+  ],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations",
+    "subscribersDir": "src/subscribers"
+  }
+}

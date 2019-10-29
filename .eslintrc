@@ -1,0 +1,24 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb-typescript/base"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/no-cycle": "off",
+    "import/prefer-default-export": "off",
+    "no-new": "off",
+    "no-undef": "off",
+    "max-len": [
+      "warn",
+      120
+    ],
+    "class-methods-use-this": "off",
+    "no-console": "off",
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "prefer-destructuring": "off"
+  }
+}
